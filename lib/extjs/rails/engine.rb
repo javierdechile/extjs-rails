@@ -2,7 +2,7 @@ module ExtJS
   module Rails
     class Engine < ::Rails::Engine
       
-      config.extjs_theme = 'neptune'
+      config.extjs_theme = 'gray'
       
       initializer 'exttjs.theme_init_task',
       :after => 'sprockets.environment',
